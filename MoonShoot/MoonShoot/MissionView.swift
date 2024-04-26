@@ -34,8 +34,8 @@ struct MissionView: View {
                 Image(mission.image)
                     .resizable()
                     .scaledToFit()
-                    .containerRelativeFrame(.horizontal) { width, axis in
-                        width * 0.8
+                    .containerRelativeFrame(.vertical) { height, axis in
+                        height * 0.4
                     }
                     .padding(.top)
                 
@@ -47,7 +47,7 @@ struct MissionView: View {
                         HStack {
                             ForEach(crew, id: \.role) { crewMember in
                                 NavigationLink {
-                                    Text("Astronaut details")
+                                    AstronautView(astronaut: crewMember.astronaut)
                                 } label: {
                                     HStack {
                                         Image(crewMember.astronaut.id)

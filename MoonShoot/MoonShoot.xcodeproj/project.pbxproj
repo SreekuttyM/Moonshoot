@@ -18,6 +18,7 @@
 		4DAE12F62BDBED160091EB05 /* Mission.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DAE12F52BDBED160091EB05 /* Mission.swift */; };
 		4DAE12F82BDBF2260091EB05 /* Color-Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DAE12F72BDBF2260091EB05 /* Color-Theme.swift */; };
 		4DAE12FC2BDBF8160091EB05 /* MissionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DAE12FB2BDBF8160091EB05 /* MissionView.swift */; };
+		4DAE13002BDBFC630091EB05 /* AstronautView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DAE12FF2BDBFC630091EB05 /* AstronautView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +34,7 @@
 		4DAE12F52BDBED160091EB05 /* Mission.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mission.swift; sourceTree = "<group>"; };
 		4DAE12F72BDBF2260091EB05 /* Color-Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color-Theme.swift"; sourceTree = "<group>"; };
 		4DAE12FB2BDBF8160091EB05 /* MissionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MissionView.swift; sourceTree = "<group>"; };
+		4DAE12FF2BDBFC630091EB05 /* AstronautView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AstronautView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +72,7 @@
 				4DAE12FE2BDBF91E0091EB05 /* Models */,
 				4DAE12E12BDBEA9E0091EB05 /* ContentView.swift */,
 				4DAE12FB2BDBF8160091EB05 /* MissionView.swift */,
+				4DAE12FF2BDBFC630091EB05 /* AstronautView.swift */,
 				4DAE12EE2BDBEC180091EB05 /* astronauts.json */,
 				4DAE12ED2BDBEC180091EB05 /* missions.json */,
 				4DAE12E32BDBEAA10091EB05 /* Assets.xcassets */,
@@ -178,6 +181,7 @@
 			files = (
 				4DAE12F22BDBEC2C0091EB05 /* Astronaut.swift in Sources */,
 				4DAE12F82BDBF2260091EB05 /* Color-Theme.swift in Sources */,
+				4DAE13002BDBFC630091EB05 /* AstronautView.swift in Sources */,
 				4DAE12E22BDBEA9E0091EB05 /* ContentView.swift in Sources */,
 				4DAE12E02BDBEA9E0091EB05 /* MoonShootApp.swift in Sources */,
 				4DAE12FC2BDBF8160091EB05 /* MissionView.swift in Sources */,
